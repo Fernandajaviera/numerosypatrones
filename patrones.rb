@@ -54,9 +54,10 @@ def numero_cero(n)
     end
     puts "*" * n
 end
+largo = ARGV[0].to_i
 
-letra_o (5)
-letra_i (5)
-letra_z (5)
-letra_x (5)
-numero_cero (5) 
+letra_o (largo)
+letra_i (largo)
+letra_z (largo)
+letra_x (largo)
+numero_cero (largo) 

@@ -5,5 +5,5 @@ def numeros(n)
         puts aux
     end
 end
-
-numeros(5)
+largo = ARGV[0].to_i
+numeros(largo)
